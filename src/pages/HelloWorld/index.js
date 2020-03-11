@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Container } from './styles';
 
-export default function Page() {
+export default function HelloWorld() {
   return (
     <Container>
-      <h1>Page</h1>
+      <h1>Hello World</h1>
     </Container>
   );
 }
