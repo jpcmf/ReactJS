@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import colors from './colors';
+
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
@@ -20,11 +22,11 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased !important;
-    background-color: #fff;
+    background-color: ${colors.white};
   }
 
   body, input, button {
-    color: #222;
+    color: ${colors.dark};
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
