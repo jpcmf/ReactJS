@@ -3,8 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 import colors from './colors';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-
   * {
     box-sizing: border-box;
     margin: 0;
